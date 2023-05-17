@@ -1,0 +1,17 @@
+import java.io.*;
+class  ParImpar
+  {      
+    public static void main(String[] args)
+      {
+         int num=15;
+         int parimpar=0; 
+         parimpar=15%2;
+            if(parimpar==0)
+               {
+                 System.out.print("Par");
+               }
+           else{
+                System.out.print("Impar"); 
+               }
+      }
+  } 

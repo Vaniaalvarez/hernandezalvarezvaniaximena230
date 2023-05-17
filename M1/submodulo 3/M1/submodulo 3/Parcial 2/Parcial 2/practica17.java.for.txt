@@ -1,0 +1,18 @@
+import java.io.*;
+class Estaturas
+  {
+   public static void main(String[] args)
+     {
+      float[] estaturas= { -3.0f, -8.0f, 10.0f};
+      float numMenor=0.0f;
+      int nM = 0;
+      for(int i = 0; i < estaturas.length; i++)
+        {
+         if ( numMenor > estatura[i])
+           {
+             nM++;
+           }
+        } 
+        System.out.print( numMenor);
+     }
+  }

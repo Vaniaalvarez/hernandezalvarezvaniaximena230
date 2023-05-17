@@ -1,0 +1,22 @@
+import java.io.*;
+class Estaturas
+  {
+   public static void main(String[] args)
+     {
+      float[] estaturas= { -3.0f, -8.0f, 10.0f};
+      int numMayores =0, numMenores=0;
+      int i=0;
+      while (i<= 2)
+      {
+         if ( estaturas [i]>0)
+             numMayores++;
+        else
+          
+             numMenores++;
+          
+          i++;
+      }
+      System.out.println(numMayores);
+      System.out.println(numMenores);
+     }
+  }
